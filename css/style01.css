@@ -1,5 +1,5 @@
 body {
-	background-image: url("file:///C:/Users/Gamep/Desktop/Web%20CS100/Formtest01/img/bg01.jpg");
+	background-image: url(https://raw.githubusercontent.com/Phattharaphum/Formtest01/main/img/bg01.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	margin: 0;
@@ -7,7 +7,7 @@ body {
 }
 .mainform {
     background-color: white;
-	border-radius: 40px;
+	border-radius: 10px;
     margin: auto;
 	margin-top: 5em;
 	width: 600px;
@@ -98,11 +98,11 @@ p {
 }
 
 #fname {
-	margin-left: 2.8em;
+	margin-left: 2.6em;
 }
 
 #lnane {
-	margin-left: -1em;
+	margin-left: -.7em;
 }
 
 #tts {
@@ -134,4 +134,30 @@ p {
 
 .freesp {
 	height: 600px;
+}
+@media screen and (max-width: 768px)
+{
+body{
+	background-image:url();
+	background-color: #403d39;
+	}
+	.mainform{
+		margin-top: 0;
+		border-radius: 0px;
+	}
+.freesp {
+	height: 60px;
+	background-color:#941b0c; 
+}	
+	.head{
+		background-color: #ffbf69;
+		margin: -2em;
+		padding: 2em;
+	}
+	.nameth{
+		margin-top: 1em
+	}
+	.headtext{
+		color: #d00000;
+	}
 }
