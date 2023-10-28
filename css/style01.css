@@ -1,0 +1,137 @@
+body {
+	background-image: url("file:///C:/Users/Gamep/Desktop/Web%20CS100/Formtest01/img/bg01.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: Kanit;
+}
+.mainform {
+    background-color: white;
+	border-radius: 40px;
+    margin: auto;
+	margin-top: 5em;
+	width: 600px;
+	padding: 2em;
+	box-shadow: 5px 5px 5px 1px #403d39;
+}
+.nameth {
+    display: flex;
+    flex-direction: row;
+}
+.nameen {
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+	height: 80px;
+}
+
+.head {
+	display: flex;
+}
+
+.headtext {
+	margin-left: 0.5em;
+	font-family: Roboto;
+	font-size: 35pt;
+	margin: auto;
+	color: #252422;
+	font-weight: 900;
+	
+}
+
+#ddb {
+	color: #a98467;
+	font-size: 20pt;
+}
+
+#ss {
+	border-radius: 5px;
+	font-family: Kanit;
+	font-size: 15pt;
+}
+
+.ddb {
+	
+}
+
+textarea {
+	resize: none;
+	width: 80px;
+}
+
+.addd {
+	border-color: #252422;
+	border-radius: 5px;
+}
+
+form {
+	font-size: 20pt;
+	font-weight: 600;
+}
+
+input {
+
+}
+
+p {
+	
+}
+
+#sk {
+	margin-left: 1em
+}
+
+.nameip {
+	font-family: kanit;
+	font-size: 15pt;
+	border-radius: 5px;
+}
+
+#na {
+	margin-left: 1em;
+}
+
+#tt {
+	font-family: Kanit;
+	font-size: 15pt;
+}
+
+#fname {
+	margin-left: 2.8em;
+}
+
+#lnane {
+	margin-left: -1em;
+}
+
+#tts {
+		font-family: Kanit;
+	font-size: 15pt;
+}
+
+.gend {
+	font-size: 10pt;
+}
+
+.ggg {
+	font-weight: 500;
+}
+
+#mh {
+	width: 600px;
+	font-size: 12pt;
+	font-family: Kanit;
+}
+
+#sc {
+	margin: auto;
+	font-family: Kanit;
+	font-size: 20pt;
+	margin-left: 9em;
+	font-weight: 700;
+}
+
+.freesp {
+	height: 600px;
+}

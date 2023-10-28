@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style01.css" media="all">
+        <title>TU Library Registration</title>
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="mainform">
+		<div class="head">
+		<img src="img/logo01.png" alt="TU Logo" class="logo">	
+        <h1 class="headtext">TU Library Registration</h1>
+			
+		</div>
+        <form action="#">
+            <div class="nameth">
+			<p>คำนำหน้า <br>
+                <select name="Title" id="tt">
+                    <option value="นาย" class="ts">นาย</option>
+                    <option value="นางสาว" class="ts">นางสาว</option>
+                    <option value="นาง" class="ts">นาง</option>
+                </select>
+            </p>
+            <p id="na">ชื่อ: <br>
+                <input type="text" name="fnameTH" size="15"
+                maxlength="30" class="nameip" required="required"/>
+            </p>
+            <p id="sk">สกุล: <br>
+                <input type="text" name="lnameTH" size="15"
+                maxlength="30" class="nameip" required="required"/>
+            </p>
+            </div>
+            <div class="nameen">
+			<p>Title <br>
+                <select name="Title" id="tts">
+                    <option value="Mr" class="ts">Mr.</option>
+                    <option value="Ms." class="ts">Ms.</option>
+                    <option value="Mrs." class="ts">Mrs.</option>
+             </select>
+            <p id="fname">First Name:
+                <input type="text" name="fnameEN" size="15"
+                maxlength="30" class="nameip" required="required"/>
+            </p>
+            <p id="lnane">Last Name:
+                <input type="text" name="lnameEN" size="15"
+                maxlength="30" class="nameip" required="required"/>
+            </p>
+				</p>
+            </div>
+            <p>เพศ:
+                <input type="radio" name="gender" value="male"
+                checked="checked" class="gend"/> <span class="ggg">ชาย</span>
+                <input type="radio" name="gender" value="female" />
+                <span class="ggg">หญิง</span>
+                <input type="radio" name="gender" value="nonspecified" />
+                <span class="ggg">ไม่ระบุ</span>
+                </p>
+            <p>รหัสนักศึกษา:
+                    <input type="text" name="stu-id" size="15"
+                    maxlength="30" class="nameip" required="required"/>
+            </p>
+
+            <p>คณะที่ศึกษา:
+                <select name="Faculty" id="ss">
+                    <option value="Faculty of Law">คณะนิติศาสตร์</option>
+                    <option value="Faculty of Commerce and Accountancy">คณะพาณิชยศาสตร์และการบัญชี</option>
+                    <option value="Faculty of Political Science">คณะรัฐศาสตร์</option>
+                    <option value="Faculty of Economics">คณะเศรษฐศาสตร์</option>
+                    <option value="Faculty of Social Work">คณะสังคมสงเคราะห์ศาสตร์</option>
+                    <option value="Faculty of Sociology and Anthropology">คณะสังคมวิทยาและมานุษยวิทยา</option>
+                    <option value="Faculty of Liberal Arts">คณะศิลปศาสตร์</option>
+                    <option value="Faculty of Journalism and Mass Communication">คณะวารสารศาสตร์และสื่อสารมวลชน</option>
+                    <option value="Faculty of Science and Technology">คณะวิทยาศาสตร์และเทคโนโลยี</option>
+                    <option value="Faculty of Engineering">คณะวิศวกรรมศาสตร์</option>
+                    <option value="Faculty of Architecture and Urban Planning">คณะสถาปัตยกรรมและการผังเมือง</option>
+                    <option value="Faculty of Fine and Applied Arts">คณะศิลปกรรมศาสตร์</option>
+                    <option value="Faculty of Medicine">คณะแพทยศาสตร์</option>
+                    <option value="Faculty of Allied Health Sciences">คณะสหเวชศาสตร์</option>
+                    <option value="Faculty of Dentistry">คณะทันตแพทยศาสตร์</option>
+                    <option value="Faculty of Nursing">คณะพยาบาลศาสตร์</option>
+                    <option value="Faculty of Public Health">คณะสาธารณสุขศาสตร์</option>
+                    <option value="Faculty of Pharmacy">คณะเภสัชศาสตร์</option>
+                    <option value="Faculty of Learning Sciences and Education">คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
+                </select>
+            </p>
+            <p>ที่อยู่อีเมล:
+                <input type="email" name="email"  class="nameip" size="30" required="required"/>  
+            </p>
+            <label for="username">วันเกิด:</label>
+                <input type="date" name="birthday" class="nameip" required="required"/>
+                <br>
+            <p>อัพโหลดรูปภาพของคุณ:
+                <input type="file" name="stu-pic"  class="nameip"/>
+            </p>
+            <p>หมายเหตุ <br>
+                <textarea name="comments" cols="1" rows="2" id="mh"></textarea></p>
+			
+			<input type="submit" name="subscribe"
+value="Subscribe" id="sc"/>
+        </form>
+        </div>
+		<div class="freesp"></div>
+    </body>
+</html>
