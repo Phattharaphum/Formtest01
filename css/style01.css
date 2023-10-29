@@ -49,6 +49,8 @@ body {
 	border-radius: 5px;
 	font-family: Kanit;
 	font-size: 15pt;
+	border: none;
+	background-color: #ced4da;
 }
 
 .ddb {
@@ -86,6 +88,8 @@ p {
 	font-family: kanit;
 	font-size: 15pt;
 	border-radius: 5px;
+	border: none;
+	background-color: #ced4da;
 }
 
 #na {
@@ -95,6 +99,9 @@ p {
 #tt {
 	font-family: Kanit;
 	font-size: 15pt;
+	border-radius: 5px;
+	border: none;
+	background-color: #ced4da;
 }
 
 #fname {
@@ -106,8 +113,15 @@ p {
 }
 
 #tts {
-		font-family: Kanit;
+	font-family: Kanit;
 	font-size: 15pt;
+	border-radius: 5px;
+	border: none;
+	background-color: 	font-family: Kanit;
+	font-size: 15pt;
+	border-radius: 5px;
+	border: none;
+	background-color: #ced4da;
 }
 
 .gend {
@@ -122,14 +136,23 @@ p {
 	width: 600px;
 	font-size: 12pt;
 	font-family: Kanit;
+	border-radius: 5px;
+	border: none;
+	background-color: #ced4da;
 }
 
 #sc {
 	margin: auto;
 	font-family: Kanit;
 	font-size: 20pt;
-	margin-left: 9em;
-	font-weight: 700;
+	margin-left: 7.5em;
+	font-weight: 500;
+	background-color: #540b0e;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	width: 200px;
 }
 
 .freesp {
@@ -139,18 +162,21 @@ p {
 {
 body{
 	background-image:url();
-	background-color: #403d39;
+	background-color: #941b0c;
+	width: 100%;
 	}
 	.mainform{
 		margin-top: 0;
 		border-radius: 0px;
+		box-shadow:0 0 0 0 ;
 	}
 .freesp {
 	height: 60px;
+	width: 100%;
 	background-color:#941b0c; 
 }	
 	.head{
-		background-color: #ffbf69;
+		background-color: #ffb627;
 		margin: -2em;
 		padding: 2em;
 	}
@@ -158,6 +184,16 @@ body{
 		margin-top: 1em
 	}
 	.headtext{
-		color: #d00000;
+		color: white;
 	}
+}
+.topivv {
+	height: 100px;
+}
+
+#geedd {
+	background-color: #ced4da;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 15pt;
 }
